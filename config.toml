@@ -1,0 +1,21 @@
+database = "data/warehouse.sqlite3"
+shipments = "data/feeds/carrier"
+wms_events = "data/feeds/wms"
+start = "2025-01-01"
+demo_end = "2026-11-24"
+seed = 42
+horizon = 7
+validation_days = 28
+holdout_days = 42
+occupancy_alert = 90
+search_budget = 3
+promotion_threshold = 0.01
+monitor_days = 28
+drift_threshold = 0.20
+error_growth_threshold = 0.25
+monitor_min_points = 12
+
+[zones]
+A = 280
+B = 360
+C = 240
